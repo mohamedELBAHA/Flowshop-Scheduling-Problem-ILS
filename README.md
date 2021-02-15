@@ -9,7 +9,9 @@ Iterated Local Search Method :
 - Uses a Local Search method to find the new local optima
 - Accepts non improving solutions along the process
 The stopping criterion can be reaching a maximum number of iterations is achieved, or a maximum CPU time is reached, or a maximum number of non-improvements is reached. in our case we choose the number of iterations.
+<p align="center">
 <img src="https://github.com/mohamedELBAHA/Flowshop_Scheduling_Problem_ILS-/blob/main/Capture.JPG?raw=true">
+</p>
 
 
 
