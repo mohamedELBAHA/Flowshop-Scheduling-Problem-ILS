@@ -8,3 +8,14 @@ Iterated Local Search Method :
 - Perturbs the solution to escape local optima
 - Uses a Local Search method to find the new local optima
 - Accepts non improving solutions along the process
+The stopping criterion can be reaching a maximum number of iterations is achieved, or a maximum CPU time is reached, or a maximum number of non-improvements is reached. in our case we choose the number of iterations.
+```python
+IteratedLocalSearch:
+  GenerateInitialSolution So
+  S = LocalSearch(So)
+  While stopping criterion not reached Do
+    S = Perturbtion(S)
+    S = LocalSearch()
+    S = AceptanceCriterion(S,S)
+  EndWhile
+```
