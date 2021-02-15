@@ -13,6 +13,8 @@ The stopping criterion can be reaching a maximum number of iterations is achieve
 <img src="https://github.com/mohamedELBAHA/Flowshop_Scheduling_Problem_ILS-/blob/main/Capture.JPG?raw=true">
 </p>
 
+(1) Generate an Initial Solution -> (2) Apply a Local Search on that Solution => (3) Perturbe that solution -> (4) Apply for the second time Local Search -> (5) Test the solution 
+
 
 
 
